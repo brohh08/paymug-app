@@ -1,0 +1,230 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1786802400000,
+      "tag": "0000_init",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1787032800000,
+      "tag": "0001_primary_store",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1787032801000,
+      "tag": "0002_query_indexes",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "6",
+      "when": 1787205600000,
+      "tag": "0003_inactive_stores",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "6",
+      "when": 1787292000000,
+      "tag": "0004_custom_product_amount",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "6",
+      "when": 1787378400000,
+      "tag": "0005_campaign_tracking",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "6",
+      "when": 1787464800000,
+      "tag": "0006_customer_email_preferences",
+      "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "6",
+      "when": 1787551200000,
+      "tag": "0007_outbound_webhooks",
+      "breakpoints": true
+    },
+    {
+      "idx": 8,
+      "version": "6",
+      "when": 1787637600000,
+      "tag": "0008_webhook_auth",
+      "breakpoints": true
+    },
+    {
+      "idx": 9,
+      "version": "6",
+      "when": 1787724000000,
+      "tag": "0009_order_custom_data",
+      "breakpoints": true
+    },
+    {
+      "idx": 10,
+      "version": "6",
+      "when": 1787810400000,
+      "tag": "0010_webhook_product",
+      "breakpoints": true
+    },
+    {
+      "idx": 11,
+      "version": "6",
+      "when": 1787896800000,
+      "tag": "0011_product_redirect_url",
+      "breakpoints": true
+    },
+    {
+      "idx": 12,
+      "version": "6",
+      "when": 1787983200000,
+      "tag": "0012_order_payment_failure_details",
+      "breakpoints": true
+    },
+    {
+      "idx": 13,
+      "version": "6",
+      "when": 1788069600000,
+      "tag": "0013_product_license_seats",
+      "breakpoints": true
+    },
+    {
+      "idx": 14,
+      "version": "6",
+      "when": 1788156000000,
+      "tag": "0014_visitor_analytics",
+      "breakpoints": true
+    },
+    {
+      "idx": 15,
+      "version": "6",
+      "when": 1788242400000,
+      "tag": "0015_product_categories",
+      "breakpoints": true
+    },
+    {
+      "idx": 16,
+      "version": "6",
+      "when": 1788328800000,
+      "tag": "0016_display_product_purchases",
+      "breakpoints": true
+    },
+    {
+      "idx": 17,
+      "version": "6",
+      "when": 1788415200000,
+      "tag": "0017_category_order_and_memberships",
+      "breakpoints": true
+    },
+    {
+      "idx": 18,
+      "version": "6",
+      "when": 1788501600000,
+      "tag": "0018_product_options_and_bundles",
+      "breakpoints": true
+    },
+    {
+      "idx": 19,
+      "version": "6",
+      "when": 1788588000000,
+      "tag": "0019_store_domain",
+      "breakpoints": true
+    },
+    {
+      "idx": 20,
+      "version": "6",
+      "when": 1788674400000,
+      "tag": "0020_hide_products_from_storefront",
+      "breakpoints": true
+    },
+    {
+      "idx": 21,
+      "version": "6",
+      "when": 1788760800000,
+      "tag": "0021_analytics_commerce_metric",
+      "breakpoints": true
+    },
+    {
+      "idx": 22,
+      "version": "6",
+      "when": 1788847200000,
+      "tag": "0022_analytics_visitor_identities",
+      "breakpoints": true
+    },
+    {
+      "idx": 23,
+      "version": "6",
+      "when": 1788933600000,
+      "tag": "0023_category_product_order",
+      "breakpoints": true
+    },
+    {
+      "idx": 24,
+      "version": "6",
+      "when": 1789020000000,
+      "tag": "0024_product_allow_note",
+      "breakpoints": true
+    },
+    {
+      "idx": 25,
+      "version": "6",
+      "when": 1789106400000,
+      "tag": "0025_product_note_placeholder",
+      "breakpoints": true
+    },
+    {
+      "idx": 26,
+      "version": "6",
+      "when": 1789192800000,
+      "tag": "0026_abandonment_popup",
+      "breakpoints": true
+    },
+    {
+      "idx": 27,
+      "version": "6",
+      "when": 1789279200000,
+      "tag": "0027_app_meta",
+      "breakpoints": true
+    },
+    {
+      "idx": 28,
+      "version": "6",
+      "when": 1789365600000,
+      "tag": "0028_category_storefront_visibility",
+      "breakpoints": true
+    },
+    {
+      "idx": 29,
+      "version": "6",
+      "when": 1789452000000,
+      "tag": "0029_product_extra_seats",
+      "breakpoints": true
+    },
+    {
+      "idx": 30,
+      "version": "6",
+      "when": 1789538400000,
+      "tag": "0030_extra_seat_label",
+      "breakpoints": true
+    },
+    {
+      "idx": 31,
+      "version": "6",
+      "when": 1789624800000,
+      "tag": "0031_user_timezone",
+      "breakpoints": true
+    }
+  ]
+}

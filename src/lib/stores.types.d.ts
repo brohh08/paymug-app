@@ -1,0 +1,37 @@
+export interface CreateStoreInput {
+  userId: string;
+  name: string;
+  description?: string;
+  logoImageUrl?: string;
+  coverImageUrl?: string;
+}
+
+export interface UpdateStoreInput {
+  name?: string;
+  slug?: string;
+  domain?: string | null;
+  description?: string;
+  logoImageUrl?: string | null;
+  coverImageUrl?: string | null;
+  emailFrom?: string | null;
+  emailReplyTo?: string | null;
+  paymentGateway?: "paypal" | "stripe";
+  affiliatesEnabled?: boolean;
+  affiliateCommissionType?: "percentage" | "fixed";
+  affiliateCommissionValue?: number;
+  affiliateCommissionDuration?: "one_time" | "recurring";
+  affiliateAttributionModel?: "first_click" | "last_click";
+  emailCampaignsEnabled?: boolean;
+  abandonedCheckoutRemindersEnabled?: boolean;
+  analyticsEnabled?: boolean;
+  displayPurchasesEnabled?: boolean;
+  analyticsCommerceMetric?: string | null;
+  abandonmentPopupEnabled?: boolean;
+  abandonmentQuestion?: string | null;
+  abandonmentOptions?: string[];
+  currency?: string;
+  transactionFeeType?: "fixed" | "percentage";
+  transactionFeeValue?: number;
+}
+
+export type StoreCredentialKind = "payment" | "github";

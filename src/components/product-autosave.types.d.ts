@@ -1,0 +1,59 @@
+import type { ProductExtraSeatTier } from "@/lib/extra-seats.types";
+import type { Product } from "@/lib/types";
+import type { ProductFile } from "@/lib/product-files.types";
+import type {
+  ProductBundle,
+  ProductOption,
+} from "@/lib/product-configurations.types";
+
+export interface ProductFormSavePayload {
+  name: string;
+  slug: string;
+  description: string;
+  categoryIds: string[];
+  options: ProductOption[];
+  bundles: ProductBundle[];
+  imageUrl: string;
+  price: number;
+  transactionFeeType: "fixed" | "percentage";
+  transactionFeeValue: number;
+  currency: string;
+  status: "draft" | "published";
+  hideFromStorefront: boolean;
+  deliveryContent?: string;
+  redirectUrl?: string | null;
+  productFiles: ProductFile[];
+  generateLicense: boolean;
+  licenseType: "standard" | "perpetual";
+  licenseUpdatePeriodUnit?: "day" | "week" | "month" | "year" | null;
+  licenseUpdatePeriodCount: number;
+  licenseSeatLimit: number | null;
+  extraSeatsEnabled: boolean;
+  extraSeatTiers: ProductExtraSeatTier[];
+  extraSeatLabel: string;
+  billingType: "one_time" | "subscription";
+  customAmountEnabled: boolean;
+  allowNote: boolean;
+  notePlaceholder?: string;
+  intervalUnit?: "week" | "month" | "year" | null;
+  intervalCount: number;
+  trialDays: number;
+  githubRepoOwner?: string | null;
+  githubRepoName?: string | null;
+}
+
+export type ProductAutosaveStatus = "idle" | "saving" | "saved" | "error";
+
+export interface UseProductAutosaveInput {
+  initialProductId?: string;
+  payload: ProductFormSavePayload;
+  hasMeaningfulContent: boolean;
+  onCreated(product: Product): void;
+  onError(message: string): void;
+  onSaved(): void;
+}
+
+export interface ProductSaveResponse {
+  product?: Product;
+  error?: string;
+}
